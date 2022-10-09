@@ -81,7 +81,7 @@ for rd in range(1, args.n_round+1):
       if(clustering.labels_[x]!=-1): strategy.update(query_idxs[x])
 
     # get labels of selected instances
-    # new_preds = strategy.predict(dataset.handler(dataset.X_train[query_idxs],dataset.Y_train[query_idxs]))
-    new_preds = strategy.predict(dataset.handler(dataset.random_data[query_idxs],dataset.Y_train[query_idxs]))
+    new_preds = strategy.predict(dataset.handler(dataset.X_train[query_idxs],dataset.Y_train[query_idxs]))
+    # new_preds = strategy.predict(dataset.handler(dataset.random_data[query_idxs],dataset.Y_train[query_idxs]))
     print('Prediction of unlabeled samples: ',new_preds)
     
