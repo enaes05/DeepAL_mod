@@ -34,7 +34,7 @@ To try with the Head and Neck cancer dataset:
 ```python demo.py --dataset_name HeadAndNeck --n_init_labeled 10 --n_query 6 --n_round 10 --strategy_name RandomSampling```
 
 ## Citing
-Please do not forget to cite the original proyect, this is just a modification to study a concrete case:
+Please do not forget to cite the original project, this is just a modification to study a concrete case:
 
 ```
 @article{Huang2021deepal,
